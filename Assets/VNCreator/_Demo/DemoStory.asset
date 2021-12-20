@@ -1,0 +1,942 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: DemoStory
+  m_EditorClassIdentifier: 
+  links:
+  - guid: 71c7307d-a03c-48d1-8f37-156bc5b1edbe
+    targetGuid: 82fd93c1-efd1-40eb-ae4b-d348a1b19663
+    portId: 0
+  - guid: 82fd93c1-efd1-40eb-ae4b-d348a1b19663
+    targetGuid: 30ad6ce3-5cc0-40d4-bda6-953a77bd4c5e
+    portId: 1
+  - guid: 43443b6a-8fc6-4ee0-b9e4-3b5ab85f09fa
+    targetGuid: 7eee9ef6-5dde-465d-8228-80e5f3b67080
+    portId: 2
+  - guid: 7eee9ef6-5dde-465d-8228-80e5f3b67080
+    targetGuid: 7089fbc5-afe3-486a-8040-093fe5576930
+    portId: 3
+  - guid: bdfa56de-447b-42b4-ac61-1bc01f9ad49c
+    targetGuid: 1e23bf54-9afd-47c6-ba76-942101512a55
+    portId: 4
+  - guid: 29dae352-5405-4ea6-8b2e-f00bf8720b33
+    targetGuid: efaafdcb-2033-4d57-8676-3094149b288b
+    portId: 5
+  - guid: efaafdcb-2033-4d57-8676-3094149b288b
+    targetGuid: 26289874-1b0d-4ad6-8824-e0a7c639176a
+    portId: 6
+  - guid: 26289874-1b0d-4ad6-8824-e0a7c639176a
+    targetGuid: f4ba4a35-dcef-48b8-afab-5dc75e9ad60d
+    portId: 7
+  - guid: f4ba4a35-dcef-48b8-afab-5dc75e9ad60d
+    targetGuid: 2e85a7ca-85ca-4464-8072-8f2b16971b36
+    portId: 8
+  - guid: fd714dc9-ebbf-41da-9da0-39db6bc13894
+    targetGuid: 204b49ef-df46-4cd0-80d8-76bacc18dac6
+    portId: 9
+  - guid: 204b49ef-df46-4cd0-80d8-76bacc18dac6
+    targetGuid: 275cf0ef-d824-4d40-a5bf-4022e6f8ba9c
+    portId: 10
+  - guid: 30ad6ce3-5cc0-40d4-bda6-953a77bd4c5e
+    targetGuid: 60be286b-2503-4c67-a69b-58fc75c89ccc
+    portId: 11
+  - guid: 60be286b-2503-4c67-a69b-58fc75c89ccc
+    targetGuid: 29dae352-5405-4ea6-8b2e-f00bf8720b33
+    portId: 12
+  - guid: 7089fbc5-afe3-486a-8040-093fe5576930
+    targetGuid: 431c40f2-9d68-495c-a2d2-30a993e9f18c
+    portId: 13
+  - guid: 2e85a7ca-85ca-4464-8072-8f2b16971b36
+    targetGuid: fd714dc9-ebbf-41da-9da0-39db6bc13894
+    portId: 14
+  - guid: 275cf0ef-d824-4d40-a5bf-4022e6f8ba9c
+    targetGuid: a4f985fb-8df3-4e76-9530-6cd54e709d41
+    portId: 15
+  - guid: a4f985fb-8df3-4e76-9530-6cd54e709d41
+    targetGuid: e09ae441-3601-44c0-9e6f-3039f042b690
+    portId: 16
+  - guid: e09ae441-3601-44c0-9e6f-3039f042b690
+    targetGuid: ed232059-015c-4830-959c-313e99afa209
+    portId: 17
+  - guid: 92ec6a5d-b768-4129-990a-ad0f39a56a1c
+    targetGuid: d2be6511-d0c2-4192-a621-62bf8b338336
+    portId: 18
+  - guid: ed232059-015c-4830-959c-313e99afa209
+    targetGuid: 92ec6a5d-b768-4129-990a-ad0f39a56a1c
+    portId: 19
+  - guid: d2be6511-d0c2-4192-a621-62bf8b338336
+    targetGuid: 652ce477-1c00-4bd7-9267-f390413f0e34
+    portId: 20
+  - guid: 9bc7d7f9-9c0c-4475-9a47-8fba03b1d479
+    targetGuid: 355512a6-eb81-4741-8154-3730e2eeb015
+    portId: 21
+  - guid: 355512a6-eb81-4741-8154-3730e2eeb015
+    targetGuid: 4ffe6ec7-f854-4e2c-b36e-1c0da205be25
+    portId: 22
+  - guid: 12822a84-1ec9-49cf-89f7-3f596ea9f6ea
+    targetGuid: 8d51daea-8908-428e-8528-b2d66de04c83
+    portId: 23
+  - guid: 8d51daea-8908-428e-8528-b2d66de04c83
+    targetGuid: dfcb2b0b-9a55-4d93-8be1-19b23bccff70
+    portId: 24
+  - guid: 431c40f2-9d68-495c-a2d2-30a993e9f18c
+    targetGuid: 71c7307d-a03c-48d1-8f37-156bc5b1edbe
+    portId: 25
+  - guid: 431c40f2-9d68-495c-a2d2-30a993e9f18c
+    targetGuid: bdfa56de-447b-42b4-ac61-1bc01f9ad49c
+    portId: 26
+  - guid: 174eb1a7-265a-4953-bafb-908b5b0b3dd4
+    targetGuid: 12822a84-1ec9-49cf-89f7-3f596ea9f6ea
+    portId: 27
+  - guid: a511096b-c61e-4976-85b5-ace9bc441b99
+    targetGuid: 174eb1a7-265a-4953-bafb-908b5b0b3dd4
+    portId: 28
+  - guid: 4ffe6ec7-f854-4e2c-b36e-1c0da205be25
+    targetGuid: a511096b-c61e-4976-85b5-ace9bc441b99
+    portId: 29
+  - guid: 652ce477-1c00-4bd7-9267-f390413f0e34
+    targetGuid: 9bc7d7f9-9c0c-4475-9a47-8fba03b1d479
+    portId: 30
+  - guid: dfcb2b0b-9a55-4d93-8be1-19b23bccff70
+    targetGuid: d6cb5e12-faba-4dd3-bcf2-bdc6bbdfaf36
+    portId: 31
+  - guid: d6cb5e12-faba-4dd3-bcf2-bdc6bbdfaf36
+    targetGuid: e69841b3-a448-4d8b-9c4e-80789c65e3fe
+    portId: 32
+  - guid: e69841b3-a448-4d8b-9c4e-80789c65e3fe
+    targetGuid: b7d31f66-c41b-4d29-bc67-e38241fc8852
+    portId: 33
+  - guid: b7d31f66-c41b-4d29-bc67-e38241fc8852
+    targetGuid: 395a72be-9c58-4f27-b25e-83c0da9c996a
+    portId: 34
+  - guid: 395a72be-9c58-4f27-b25e-83c0da9c996a
+    targetGuid: 4194fc07-0345-4a18-8100-aa51416c148b
+    portId: 35
+  - guid: 4194fc07-0345-4a18-8100-aa51416c148b
+    targetGuid: f730aad9-2e04-4a04-9737-f98fb75846ea
+    portId: 36
+  - guid: f730aad9-2e04-4a04-9737-f98fb75846ea
+    targetGuid: 13b4899f-c24c-46ed-8b66-6525b8447341
+    portId: 37
+  - guid: 13b4899f-c24c-46ed-8b66-6525b8447341
+    targetGuid: 21214a0b-194a-464f-87cd-ff5aac63a973
+    portId: 38
+  - guid: 21214a0b-194a-464f-87cd-ff5aac63a973
+    targetGuid: aefc7b02-7c8a-4e54-9487-f0bb95632f99
+    portId: 39
+  nodes:
+  - guid: 71c7307d-a03c-48d1-8f37-156bc5b1edbe
+    characterSpr: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+    characterName: ???
+    dialogueText: "H\xEA\u0309\u2026!!"
+    backgroundSpr: {fileID: 21300000, guid: 0d1c085c84ae0e349b8f80d33a5cbcc9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1870
+      y: 254
+      width: 499
+      height: 307
+    soundEffect: {fileID: 8300000, guid: 8275a4bd932cf644b8913c201305a8f4, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 82fd93c1-efd1-40eb-ae4b-d348a1b19663
+    characterSpr: {fileID: 0}
+    characterName: ???
+    dialogueText: "Th\xF4i ch\xEA\u0301t, \u0111a\u0303 tr\xEA\u0303 v\xE2\u0323y
+      r\xF4\u0300i sao?\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 0d1c085c84ae0e349b8f80d33a5cbcc9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2606
+      y: 256
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 43443b6a-8fc6-4ee0-b9e4-3b5ab85f09fa
+    characterSpr: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+    characterName: ???
+    dialogueText: "*chu\xF4ng ba\u0301o th\u01B0\u0301c * "
+    backgroundSpr: {fileID: 21300000, guid: 0d1c085c84ae0e349b8f80d33a5cbcc9, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -402
+      y: 323
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 60cbbe24b7112a94992bed39df6325ed, type: 3}
+  - guid: 7eee9ef6-5dde-465d-8228-80e5f3b67080
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: ',,,?'
+    backgroundSpr: {fileID: 21300000, guid: 0d1c085c84ae0e349b8f80d33a5cbcc9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 152
+      y: 318
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: bdfa56de-447b-42b4-ac61-1bc01f9ad49c
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: '"Coon runs away crying"'
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1879
+      y: 715
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 1e23bf54-9afd-47c6-ba76-942101512a55
+    characterSpr: {fileID: 21300000, guid: 59761d37806f3244ba77b4b23f66b5a4, type: 3}
+    characterName: Rambear
+    dialogueText: Maybe I should have given coon foods
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2454
+      y: 918
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 29dae352-5405-4ea6-8b2e-f00bf8720b33
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: " Thi thoa\u0309ng nhi\u0300n ng\u01B0\u01A1\u0300i ta tay trong
+      tay qua da\u0323o ph\xF4\u0301 v\u01A1\u0301i nhau cu\u0303ng khi\xEA\u0301n
+      t\xF4i ghen ti\u0323 mu\xF4\u0301n ch\xEA\u0301t."
+    backgroundSpr: {fileID: 21300000, guid: 98368532f7dbc424eb9185614129542a, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4463
+      y: 238
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: efaafdcb-2033-4d57-8676-3094149b288b
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Th\xEA\u0301 nh\u01B0ng h\xF4m nay la\u0300 m\xF4\u0323t nga\u0300y
+      tro\u0323ng \u0111a\u0323i.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 98368532f7dbc424eb9185614129542a, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5043
+      y: 270
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 26289874-1b0d-4ad6-8824-e0a7c639176a
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "H\xF4m nay t\xF4i se\u0303 \u0111i he\u0323n ho\u0300 v\u01A1\u0301i
+      m\xF4\u0323t c\xF4 ga\u0301i."
+    backgroundSpr: {fileID: 21300000, guid: 98368532f7dbc424eb9185614129542a, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5611
+      y: 284
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f4ba4a35-dcef-48b8-afab-5dc75e9ad60d
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Shio, Cha\u0300o bu\xF4\u0309i sa\u0301ng!\r\n"
+    backgroundSpr: {fileID: 21300000, guid: f359268f04291294ba798b9ad75a72d9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6209
+      y: 260
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: fd714dc9-ebbf-41da-9da0-39db6bc13894
+    characterSpr: {fileID: 21300000, guid: 28a899254e9688149b8ec824fbef199d, type: 3}
+    characterName: Shio Tatsumi
+    dialogueText: "Cha\u0300o bu\xF4\u0309i sa\u0301ng \u2018 \u2018, c\xE2\u0323u
+      \u0111\xEA\u0301n mu\xF4\u0323n th\xE2\u0323t \u0111\xE2\u0301y!\r\n"
+    backgroundSpr: {fileID: 21300000, guid: f359268f04291294ba798b9ad75a72d9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 7438
+      y: 254
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 204b49ef-df46-4cd0-80d8-76bacc18dac6
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Ahaha... *th\u01A1\u0309 h\xF4\u0309n h\xEA\u0309n*"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8013
+      y: 246
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 30ad6ce3-5cc0-40d4-bda6-953a77bd4c5e
+    characterSpr: {fileID: 0}
+    characterName: ???
+    dialogueText: "Pha\u0309i mau nhanh l\xEAn, Shio ch\u0103\u0301c gi\u01A1\u0300
+      na\u0300y cu\u0303ng \u0111a\u0303 chu\xE2\u0309n bi\u0323 xong r\xF4\u0300i!\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 0d1c085c84ae0e349b8f80d33a5cbcc9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3309
+      y: 260
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 60be286b-2503-4c67-a69b-58fc75c89ccc
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "T\xF4i v\xF4\u0301n chi\u0309 la\u0300 m\xF4\u0323t sinh vi\xEAn
+      \u0111a\u0323i ho\u0323c n\u0103m 2 bi\u0300nh th\u01B0\u01A1\u0300ng co\u0301
+      m\xF4\u0323t cu\xF4\u0323c s\xF4\u0301ng te\u0309 nha\u0323t, nga\u0300y qua
+      nga\u0300y c\u01B0\u0301 l\u0103\u0323p \u0111i l\u0103\u0323p la\u0323i chi\u0309
+      co\u0301 ho\u0323c ha\u0300nh va\u0300 ch\u01A1i game.\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 98368532f7dbc424eb9185614129542a, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3916
+      y: 236
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 7089fbc5-afe3-486a-8040-093fe5576930
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "\xD4\u0300n a\u0300o qua\u0301\u2026\r"
+    backgroundSpr: {fileID: 21300000, guid: 0d1c085c84ae0e349b8f80d33a5cbcc9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 720
+      y: 322
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 2e85a7ca-85ca-4464-8072-8f2b16971b36
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "'T\xF4i cha\u0323y nh\u01B0 \u0111i\xEAn \u0111\xEA\u0301n nha\u0300
+      cu\u0309a Shio thi\u0300 th\xE2\u0301y c\xF4 \xE2\u0301y \u0111a\u0303 \u0111\u01B0\u0301ng
+      \u0111\u01A1\u0323i s\u0103\u0303n tr\u01B0\u01A1\u0301c c\xF4\u0309ng r\xF4\u0300i'"
+    backgroundSpr: {fileID: 21300000, guid: f359268f04291294ba798b9ad75a72d9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6840
+      y: 251
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 275cf0ef-d824-4d40-a5bf-4022e6f8ba9c
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "/\u0110\xE2y la\u0300 Shio Tatsumi, ba\u0323n th\xE2n th\u01A1\u0300i
+      c\xE2\u0301p 3 cu\u0309a t\xF4i. Shio la\u0300 m\xF4\u0323t c\xF4 ga\u0301i
+      nh\xE2n h\xE2\u0323u, vui ve\u0309 va\u0300 co\u0301 pha chu\u0301t tre\u0309
+      con. Th\u01A1\u0300i c\xE2\u0301p 3 c\xF4 \xE2\u0301y lu\xF4n la\u0300 t\xE2m
+      \u0111i\xEA\u0309m cu\u0309a s\u01B0\u0323 chu\u0301 y\u0301 nh\u01A1\u0300
+      ne\u0301t \u0111e\u0323p tr\u01A1\u0300i phu\u0301 va\u0300 ti\u0301nh ti\u0300nh
+      hoa\u0300 \u0111\xF4\u0300ng, th\xE2n thi\xEA\u0323n cu\u0309a ba\u0309n th\xE2n.
+      /\r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8582
+      y: 235
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a4f985fb-8df3-4e76-9530-6cd54e709d41
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Su\xF4\u0301t h\u01A1n m\xF4\u0323t n\u0103m kh\xF4ng g\u0103\u0323p
+      ma\u0300 c\xE2\u0323u v\xE2\u0303n v\xE2\u0323y nhi\u0309, ch\u0103\u0309ng
+      thay \u0111\xF4\u0309i chu\u0301t na\u0300o.\r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9141
+      y: 233
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e09ae441-3601-44c0-9e6f-3039f042b690
+    characterSpr: {fileID: 21300000, guid: 28a899254e9688149b8ec824fbef199d, type: 3}
+    characterName: 
+    dialogueText: "Su\xF4\u0301t h\u01A1n m\xF4\u0323t n\u0103m kh\xF4ng g\u0103\u0323p
+      ma\u0300 c\xE2\u0323u v\xE2\u0303n v\xE2\u0323y nhi\u0309, ch\u0103\u0309ng
+      thay \u0111\xF4\u0309i chu\u0301t na\u0300o.\r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9743
+      y: 179
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 92ec6a5d-b768-4129-990a-ad0f39a56a1c
+    characterSpr: {fileID: 21300000, guid: 864e112c4083c6248b770e3aec7e3e51, type: 3}
+    characterName: 
+    dialogueText: "Thi\u0300 \u0111\xE2\u0301y, c\xE2\u0323u v\xE2\u0303n la\u0300
+      cu\u0323c nam ch\xE2m thu hu\u0301t mo\u0323i a\u0301nh nhi\u0300n, ti\u0301nh
+      ti\u0300nh thi\u0300 hi\xEA\u0300n h\xE2\u0323u, d\xEA\u0303 g\xE2\u0300n,
+      khi\xEA\u0301n ai cu\u0303ng mu\xF4\u0301n lao va\u0300o la\u0300m quen ngay
+      l\xE2\u0323p t\u01B0\u0301c."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10827
+      y: 177
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: ed232059-015c-4830-959c-313e99afa209
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Y\u0301 c\xE2\u0323u la\u0300 sao c\u01A1 ch\u01B0\u0301?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10299
+      y: 175
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d2be6511-d0c2-4192-a621-62bf8b338336
+    characterSpr: {fileID: 21300000, guid: 49b9e25bf3272b44cb75f5f457a13fc4, type: 3}
+    characterName: ShioTatsumi
+    dialogueText: "H\u2026 ha\u0309? C\u2026 c\xE2\u0323u no\u0301i gi\u0300 v\xE2\u0323y
+      ch\u01B0\u0301? T\u01A1\u0301 \u0111\xE2u co\u0301\u2026"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11364
+      y: 188
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 9bc7d7f9-9c0c-4475-9a47-8fba03b1d479
+    characterSpr: {fileID: 21300000, guid: 1f1baae9675fa084b8aa80eac5fcbe29, type: 3}
+    characterName: ShioTatsumi
+    dialogueText: "Ca\u0301i \u0111\xF4\u0300 \u0111a\u0301ng ghe\u0301t na\u0300y!"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 12480
+      y: 205
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 355512a6-eb81-4741-8154-3730e2eeb015
+    characterSpr: {fileID: 0}
+    characterName: ???
+    dialogueText: "C\u01A1 ma\u0300 i\u0301t ra thi\u0300 nga\u0300y h\xF4m nay hai
+      chu\u0301ng ta co\u0301 th\xEA\u0309 vui ch\u01A1i thoa\u0309 thi\u0301ch r\xF4\u0300i
+      co\u0300n gi\u0300.\r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 13005
+      y: 202
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 12822a84-1ec9-49cf-89f7-3f596ea9f6ea
+    characterSpr: {fileID: 21300000, guid: 526a334e3f9529a48b49830f7e91cf5c, type: 3}
+    characterName: ShioTatsumi
+    dialogueText: "H\u01B0\u0300m\u2026, t\u01A1\u0301 kh\xF4ng bi\xEA\u0301t n\u01B0\u0303a,
+      c\xE2\u0323u co\u0301 y\u0301 ki\xEA\u0301n gi\u0300 kh\xF4ng?"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 15166
+      y: 161
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8d51daea-8908-428e-8528-b2d66de04c83
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Du\u0300 gi\u0300 mu\u0323c \u0111i\u0301ch h\xF4m nay cu\u0303ng
+      la\u0300 \u0111\xEA\u0309 \xF4n la\u0323i ki\u0309 ni\xEA\u0323m ma\u0300,
+      hay la\u0300 \u0111\xEA\u0301n nh\u01B0\u0303ng n\u01A1i ma\u0300 chu\u0301ng
+      ta t\u01B0\u0300ng \u0111i ch\u01A1i chung v\u01A1\u0301i nhau h\xF4\u0300i
+      \u0111o\u0301 \u0111i.\r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 15711
+      y: 134
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: dfcb2b0b-9a55-4d93-8be1-19b23bccff70
+    characterSpr: {fileID: 21300000, guid: 864e112c4083c6248b770e3aec7e3e51, type: 3}
+    characterName: ShioTatsumi
+    dialogueText: "Y\u0301 hay \u0111\xE2\u0301y, \u0111\xEA\u0309 xem\u2026 H\xF4\u0300i
+      \u0111o\u0301 t\u01A1\u0301 v\u01A1\u0301i c\xE2\u0323u th\u01B0\u01A1\u0300ng
+      hay lui t\u01A1\u0301i chu\u0309 y\xEA\u0301u la\u0300 \u01A1\u0309 khu game
+      thu\u0300ng Arcade nhi\u0309, ngoa\u0300i ra co\u0300n hay \u0111i da\u0303
+      ngoa\u0323i v\u01A1\u0301i l\u01A1\u0301p ta\u0323i c\xF4ng vi\xEAn n\u01B0\u0303a.
+      V\xE2\u0323y gi\u01A1\u0300 chu\u0301ng ta se\u0303 \u0111i \u0111\xE2u?\r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "C\xF4ng vi\xEAn"
+    - Arcade
+    nodePosition:
+      serializedVersion: 2
+      x: 16357
+      y: 104
+      width: 499
+      height: 373
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 431c40f2-9d68-495c-a2d2-30a993e9f18c
+    characterSpr: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+    characterName: Coon
+    dialogueText: "Ti\xEA\u0301ng gi\u0300 v\xE2\u0323y?\r"
+    backgroundSpr: {fileID: 21300000, guid: 0d1c085c84ae0e349b8f80d33a5cbcc9, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "B\xE2\u0323t \u0111i\xEA\u0323n thoa\u0323i l\xEAn"
+    - "T\u0103\u0301t \u0111i\xEA\u0323n thoa\u0323i \u0111i ngu\u0309 ti\xEA\u0301p "
+    nodePosition:
+      serializedVersion: 2
+      x: 1253
+      y: 290
+      width: 499
+      height: 373
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 174eb1a7-265a-4953-bafb-908b5b0b3dd4
+    characterSpr: {fileID: 0}
+    characterName: ???
+    dialogueText: "V\xE2\u0323y b\xE2y gi\u01A1\u0300 chu\u0301ng ta se\u0303 \u0111i
+      \u0111\xE2u \u0111\xE2y?\r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 14613
+      y: 164
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: a511096b-c61e-4976-85b5-ace9bc441b99
+    characterSpr: {fileID: 21300000, guid: 28a899254e9688149b8ec824fbef199d, type: 3}
+    characterName: ShioTatsumi
+    dialogueText: "Pha\u0309i r\xF4\u0300i ha, chu\u0301ng ta co\u0300n ca\u0309
+      m\xF4\u0323t nga\u0300y da\u0300i \u01A1\u0309 phi\u0301a tr\u01B0\u01A1\u0301c
+      n\u01B0\u0303a ma\u0300."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 14059
+      y: 165
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 4ffe6ec7-f854-4e2c-b36e-1c0da205be25
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "/Va\u0300o h\xF4m kia, Shio \u0111a\u0303 ngo\u0309 l\u01A1\u0300i
+      mu\xF4\u0301n he\u0323n t\xF4i cu\u0300ng nhau \u0111i ch\u01A1i m\xF4\u0323t
+      chuy\xEA\u0301n va\u0300o nga\u0300y Chu\u0309 nh\xE2\u0323t tu\xE2\u0300n
+      na\u0300y \u0111\xEA\u0309 \xF4n la\u0323i nh\u01B0\u0303ng ki\u0309 ni\xEAm
+      th\u01A1\u0300i ho\u0323c sinh cu\u0309a ca\u0309 hai. Thu\u0301 th\xE2\u0323t
+      thi\u0300 t\xF4i cu\u0303ng \u0111a\u0303 pha\u0309i lo\u0300ng Shio m\xE2\u0301t
+      r\xF4\u0300i th\xEA\u0301 n\xEAn \u0111\xE2y la\u0300 c\u01A1 h\xF4\u0323i
+      co\u0301 m\xF4\u0323t kh\xF4ng hai \u0111\xEA\u0309 t\xF4i ba\u0300y to\u0309
+      ti\u0300nh ca\u0309m cu\u0309a mi\u0300nh./\r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 13529
+      y: 167
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 652ce477-1c00-4bd7-9267-f390413f0e34
+    characterSpr: {fileID: 0}
+    characterName: ???
+    dialogueText: "Hi\u0300 hi\u0300, ghe\u0323o c\xE2\u0323u d\xEA\u0303 th\xE2\u0323t
+      \u0111\xE2\u0301y."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11952
+      y: 218
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: d6cb5e12-faba-4dd3-bcf2-bdc6bbdfaf36
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "V\xE2\u0323y chu\u0301ng ta \u0111i \u0111\xEA\u0301n c\xF4ng
+      vi\xEAn \u0111i.\r\n"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 16985
+      y: -66
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: e69841b3-a448-4d8b-9c4e-80789c65e3fe
+    characterSpr: {fileID: 21300000, guid: 28a899254e9688149b8ec824fbef199d, type: 3}
+    characterName: ShioTatsumi
+    dialogueText: "Y\u0301 hay \u0111\xE2\u0301y, h\xF4m nay tr\u01A1\u0300i \u0111e\u0323p,
+      r\xE2\u0301t h\u01A1\u0323p cho vi\xEA\u0323c da\u0323o ch\u01A1i trong c\xF4ng
+      vi\xEAn."
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 17557
+      y: -74
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: b7d31f66-c41b-4d29-bc67-e38241fc8852
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "Th\xEA\u0301 thi\u0300 co\u0300n \u0111\u01A1\u0323i gi\u0300
+      n\u01B0\u0303a, xu\xE2\u0301t pha\u0301t th\xF4i!"
+    backgroundSpr: {fileID: 0}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 18158
+      y: -81
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 4194fc07-0345-4a18-8100-aa51416c148b
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "/Ti\xEA\u0301t tr\u01A1\u0300i mu\u0300a ha\u0323 \xE2\u0301m
+      a\u0301p, t\u01B0\u0300ng tia n\u0103\u0301ng di\u0323u da\u0300ng chi\xEA\u0301u
+      qua ke\u0303 la\u0301 tr\xEAn ph\xF4\u0301./\r\n"
+    backgroundSpr: {fileID: 21300000, guid: 1630d7047e0dd2b4a97e017ac047bdf4, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 19312
+      y: -99
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 395a72be-9c58-4f27-b25e-83c0da9c996a
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "/Ca\u0309 hai ta\u0309n b\xF4\u0323 tr\xEAn con ph\xF4\u0301 quen
+      thu\xF4\u0323c./"
+    backgroundSpr: {fileID: 21300000, guid: 1630d7047e0dd2b4a97e017ac047bdf4, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 18733
+      y: -98
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f730aad9-2e04-4a04-9737-f98fb75846ea
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "/\u0110\u01B0\u01A1\u0300ng ph\xF4\u0301 h\xF4m nay v\u0103\u0301ng
+      l\u0103\u0323ng kha\u0301c th\u01B0\u01A1\u0300ng, chi\u0309 co\u0301 th\u01B0a
+      th\u01A1\u0301t va\u0300i chi\xEA\u0301c xe qua la\u0323i./"
+    backgroundSpr: {fileID: 21300000, guid: 1630d7047e0dd2b4a97e017ac047bdf4, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 19866
+      y: -109
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 21214a0b-194a-464f-87cd-ff5aac63a973
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "l\xE2\u0300n cu\xF4\u0301i chu\u0301ng ta \u0111i chung v\u01A1\u0301i
+      nhau nh\u01B0 th\xEA\u0301 na\u0300y la\u0300 khi na\u0300o nhi\u0309?\r\n\t\t"
+    backgroundSpr: {fileID: 21300000, guid: 1630d7047e0dd2b4a97e017ac047bdf4, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 21041
+      y: -118
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 13b4899f-c24c-46ed-8b66-6525b8447341
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "/C\u01B0\u0301 nh\u01B0 ca\u0309 vu\u0300ng tr\u01A1\u0300i na\u0300y
+      chi\u0309 co\u0301 2 \u0111\u01B0\u0301a v\xE2\u0323y/"
+    backgroundSpr: {fileID: 21300000, guid: 1630d7047e0dd2b4a97e017ac047bdf4, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 20428
+      y: -112
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: aefc7b02-7c8a-4e54-9487-f0bb95632f99
+    characterSpr: {fileID: 21300000, guid: 04911ccc876c62444b7a8d1e5d0f9b1c, type: 3}
+    characterName: ShioTatsumi
+    dialogueText: "Ch\u0103\u0309ng nh\u01A1\u0301 n\u01B0\u0303a, hi\u0300nh nh\u01B0
+      la\u0300 sau bu\xF4\u0309i l\xEA\u0303 t\xF4\u0301t nghi\xEA\u0323p n\u0103m
+      c\xE2\u0301p 3 thi\u0300 pha\u0309i."
+    backgroundSpr: {fileID: 21300000, guid: 1630d7047e0dd2b4a97e017ac047bdf4, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 21628
+      y: -122
+      width: 499
+      height: 307
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
